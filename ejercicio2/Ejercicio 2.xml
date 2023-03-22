@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <factura numero="999">
+        <direccion>Av. Valladolid</direccion>
+        <codigopostal> 28015</codigopostal>
+        <cif>q-9876543</cif>
+        <telefono>91.777.66.88</telefono>
+        <fax>12-01-2005</fax>
+        <pedido_numero>731</pedido_numero>
+        <forma_pago>EFECTIVO</forma_pago>
+        <datos_cliente>
+            <numero_clientes>879</numero_clientes>
+            <nombre>Dario Bueno Gutierrez</nombre>
+            <direccion_de_envio numero="7" piso="4" letra="D" />
+            <codigo_postal ciudad="madrid">28043</codigo_postal>
+        </datos_cliente>
+        <datos_factura>
+            <ref>MII93000F/8</ref>
+            <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+            <cant>1</cant>
+            <precio moneda="€">230 eur.</precio>
+            <IVA>16%</IVA>
+            <importe moneda="€">266,80 eur.</importe>
+        </datos_factura>
+        <datos_factura>
+            <ref>MB8QDIP4</ref>
+            <descripcion>PLACA BASE QDI P4</descripcion>
+            <cant>1</cant>
+            <precio moneda="€">180 eur.</precio>
+            <IVA>16%</IVA>
+            <importe moneda="€"> 208,80 eur.</importe>
+        </datos_factura>
+        <datos_factura>
+            <ref>MEDD512M32</ref>
+            <descripcion>DIMM DDR 512MB 3200</descripcion>
+            <cant>2</cant>
+            <precio moneda="€"> 40 eur.</precio>
+            <IVA>16%</IVA>
+            <importe moneda="€">92,80 eur.</importe>
+        </datos_factura>
+            <ref>HD250GSA7</ref>
+            <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+            <cant>4</cant>
+            <precio moneda="€">120 eur.</precio>
+            <IVA>16%</IVA>
+            <importe moneda="€">92,80 eur.</importe>
+            <base_imposible moneda="€">556,80 eur.</base_imposible>
+        <IVA>16%</IVA>
+        <cuota moneda="€">155,20</cuota>
+        <total moneda="€">1125,20</total>
+    </factura>
+</empresa>
